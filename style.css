@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: dimgrey;
+}
+.container{
+    background-color: #fff;
+    padding:20px 40px;
+    border-radius: 20px;
+}
+header h1{
+    text-align: center;
+}
+.content{
+    display: flex;
+    margin-top: 20px;
+}
+.billamount .amountinput{
+    margin-top: 10px;
+}
+.per .perbtn, .per{
+    margin-top: 10px;
+}
+.people ,.peopleinput{
+    margin-top: 10px;
+}
+.inputs{
+    width: 50%;
+}
+
+.perbtn{
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.inputs button,.custom{
+    width: 27.5%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: dimgray;
+    color: #fff;
+    border-radius: 5px;
+}
+.custom{
+    background-color: #fff;
+    border: 1px solid;
+    color: black;
+}
+.custom::placeholder{
+    text-align: center;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid ;
+}
+
+
+.right{
+    background-color:dimgrey;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+}
+.tip{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.reset{
+    margin-top: 60px;
+}
+.reset button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.right label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.right h1{
+    font-size: 35px;
+}
